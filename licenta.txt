@@ -1,0 +1,17 @@
+-serviciu background care monitorizeaza acest folder;porneste cand se face intent in FilesActivity;cand se modifica emite broadcast;se opreste cand se face logout;
+-broadcast reveiver-prinde broadcast si emite notificare;
+-push notification
+-facut functionalitatea butonului add: sa mi bage in baza si sa mi le stearga din telefon
+-buton "get back"
+-afisare timer fisier
+-afisare spatiu total ocupat pe cloud(adunat toate fisierele)
+-aplicatie web
+
+
+-facut sa arate mai bine
+-bootstrap
+-navigation bar
+
+
+
+

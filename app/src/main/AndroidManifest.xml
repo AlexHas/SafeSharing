@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alex.safesharing">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:name=".ServiceMonitor"></service>
+        <activity android:name=".LogInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUpActivitu" />
+        <activity android:name=".FilesActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".ConfirmationActivity" />
+        <activity android:name=".DoneActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".AddFileActivity" />
+        <activity
+            android:name=".FileChooser"
+            android:label="@string/title_activity_file_chooser" />
+
+        <receiver android:name=".BroadcastDownloadFile">
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_PACKAGE_STORAGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".SetFolderActivity" />
+        <activity android:name=".FolderChooser"></activity>
+    </application>
+
+</manifest>

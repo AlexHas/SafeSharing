@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SafeSharing</string>
+    <string name="titleHelp">Help</string>
+    <string name="descriptionHelp">\t\tMod de functionare al aplicatiei:\n
+\t\tUtilizatorul trebuie sa isi seteze un folder principal care va fi monitorizat non-stop, odata ce s-a realizat login-ul. Acest lucru se realizeaza din meniul aplicatiei, in sectiunea "Set main folder". De fiecare data cand utilizatorul va downloada un fisier in folderul respectiv, SafeSharing va emite o notificare prin care va intreba daca se doreste introducerea respectivului fisier in aplicatie.
+\n\tIn caz afirmativ, fisierului i se va aloca un timer de 5 minute.
+Odata ce timpul a expirat, fisierul va fi sters din telefon, si mutat in cloud.\n
+\t\tToate fisierele stocate in cloud pana in momentul respectiv, pot fi vizualizate in pagina "My files", iar in caz ca se doreste recuperarea acestora, se va apasa butonul "Get back".
+\n
+        \t\t Daca ulterior download-ului se doreste introducerea unui fisier in aplicatie, acest lucru se poate face prin intermediul comenzii "Add file".
+\t\tPentru orice informatii suplimentare va rog sa ne contactati prin email (alexhagiu@yahoo.com) sau prin intermediul formularului de contact.</string>
+    <string name="titleHistory">History</string>
+    <string name="descriptionHistory">\t\tAplicatia SafeSharing a fost dezvoltata de catre Alex Hagiu, student in anul III la Informatica Economica, in cadrul ASE.\n
+\t\tIdeea a fost inspirata dintr-un program de vizionat filme, care le salveaza temporar in calculator, pentru a economisi spatiul.\n
+\t\tAceasta idee de salvare temporara a fost sursa inspirationala pentru o noua metoda de securizare a datelor sensibile, de genul fisierelor cu parole sau soldurilor de cont, care sunt puse in primejdie in cazul pierderii device-ului pe care acestea se afla.\n
+\t\tDin acest motiv, a fost dezvoltata aceasta aplicatie, care muta toate aceste fisiere intr-un loc sigur, pe Cloud, accesibil doar cu o parola stabilita de utilizator.
+
+</string>
+    <string name="confirmation">S-a downloadat fisierul X. Doriti sa il treceti prin aplicatie?</string>
+    <string name="facebook_application_id" translatable="false">770086573150426</string>
+    <string name="btnYes">Yes</string>
+    <string name="btnNo">No</string>
+    <string name="doneMessage">Fisierul X a fost pus pe server.</string>
+    <string name="btnBack">Back to my files</string>
+    <string name="signin">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="signUp">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="requiredField">Required field!</string>
+    <string name="titleContact">Contact</string>
+    <string name="tvMesaj">Mesaj:</string>
+    <string name="btnSendMessage">Send</string>
+    <string name="mesajTrimis">Message sent.\nYou will be contacted by e-mail.</string>
+    <string name="signInProble">Sign in error!</string>
+    <string name="errorRegistering">This mail is already used!</string>
+    <string name="title_activity_file_chooser">FileChooser</string>
+
+</resources>

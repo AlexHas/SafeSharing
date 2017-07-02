@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "803429818386",
+    "firebase_url": "https://safesharing-7317c.firebaseio.com",
+    "project_id": "safesharing-7317c",
+    "storage_bucket": "safesharing-7317c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803429818386:android:f0ccd52cbde6241f",
+        "android_client_info": {
+          "package_name": "com.example.alex.safesharing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803429818386-5mp6stmd9itqenfi2jfqk5mepsshrudj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alex.safesharing",
+            "certificate_hash": "392efcb366d29fd597748a7c9f954f33d5c22ae2"
+          }
+        },
+        {
+          "client_id": "803429818386-7sku9hm7ib4d0872q6olfbjr9cditfup.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alex.safesharing",
+            "certificate_hash": "32e88d11c395387df62e280c28c2b6b02377aec1"
+          }
+        },
+        {
+          "client_id": "803429818386-8g7pu9kb0nltbarfs6uk3d81f33rnvvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD40C2KVeU5CXQCfh5XzifTpH46BI5YlJM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803429818386-8g7pu9kb0nltbarfs6uk3d81f33rnvvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
